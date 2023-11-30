@@ -76,3 +76,7 @@ To access the Django admin panel for data management:
 Visit http://127.0.0.1:8000/admin/
 Log in with the superuser credentials created during the setup.
 ```
+To run the test suite follow below cmd
+```bash
+python manage.py test vendor_app.tests
+```
